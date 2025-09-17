@@ -1,0 +1,1813 @@
+{
+  "id": "coipmobile",
+  "name": "coipmobile",
+  "metaData": {
+    "name": "coipmobile",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "coipmobile"
+    },
+    "remoteEntry": {
+      "name": "coipmobile.container.js.bundle",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "coipmobile",
+    "pluginVersion": "0.14.3",
+    "prefetchInterface": false,
+    "publicPath": "noop:///"
+  },
+  "shared": [
+    {
+      "id": "coipmobile:@bam.tech/react-native-image-resizer",
+      "name": "@bam.tech/react-native-image-resizer",
+      "version": "3.0.10",
+      "singleton": true,
+      "requiredVersion": "3.0.10",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_bam_tech_react-native-image-resizer_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@baronha/react-native-photo-editor",
+      "name": "@baronha/react-native-photo-editor",
+      "version": "1.1.6",
+      "singleton": true,
+      "requiredVersion": "1.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_baronha_react-native-photo-editor_src_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@gorhom/bottom-sheet",
+      "name": "@gorhom/bottom-sheet",
+      "version": "5.1.8",
+      "singleton": true,
+      "requiredVersion": "5.1.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_gorhom_bottom-sheet_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native-async-storage/async-storage",
+      "name": "@react-native-async-storage/async-storage",
+      "version": "2.1.0",
+      "singleton": true,
+      "requiredVersion": "2.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native-community/image-editor",
+      "name": "@react-native-community/image-editor",
+      "version": "4.3.0",
+      "singleton": true,
+      "requiredVersion": "4.3.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-community_image-editor_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native-community/netinfo",
+      "name": "@react-native-community/netinfo",
+      "version": "11.3.1",
+      "singleton": true,
+      "requiredVersion": "11.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-community_netinfo_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native-vector-icons/common",
+      "name": "@react-native-vector-icons/common",
+      "version": "11.0.0",
+      "singleton": true,
+      "requiredVersion": "^11.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-vector-icons_common_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native-vector-icons/material-design-icons",
+      "name": "@react-native-vector-icons/material-design-icons",
+      "version": "7.4.47",
+      "singleton": true,
+      "requiredVersion": "^7.4.47",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-vector-icons_material-design-icons_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native/assets-registry/path-support",
+      "name": "@react-native/assets-registry/path-support",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native_assets-registry_path-support_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native/assets-registry/registry",
+      "name": "@react-native/assets-registry/registry",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native_assets-registry_registry_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native/normalize-colors",
+      "name": "@react-native/normalize-colors",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native_normalize-colors_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-native/virtualized-lists",
+      "name": "@react-native/virtualized-lists",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native_virtualized-lists_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-navigation/bottom-tabs",
+      "name": "@react-navigation/bottom-tabs",
+      "version": "7.2.0",
+      "singleton": true,
+      "requiredVersion": "7.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-navigation_bottom-tabs_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-navigation/native-stack",
+      "name": "@react-navigation/native-stack",
+      "version": "7.2.0",
+      "singleton": true,
+      "requiredVersion": "7.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-navigation_native-stack_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@react-navigation/native",
+      "name": "@react-navigation/native",
+      "version": "7.0.14",
+      "singleton": true,
+      "requiredVersion": "7.0.14",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-navigation_native_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@realm/react",
+      "name": "@realm/react",
+      "version": "0.11.0",
+      "singleton": true,
+      "requiredVersion": "0.11.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_realm_react_dist_index_cjs.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@shopify/flash-list",
+      "name": "@shopify/flash-list",
+      "version": "1.8.0",
+      "singleton": true,
+      "requiredVersion": "1.8.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_shopify_flash-list_dist_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@tanstack/query-async-storage-persister",
+      "name": "@tanstack/query-async-storage-persister",
+      "version": "5.89.0",
+      "singleton": true,
+      "requiredVersion": "^5.76.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_tanstack_query-async-stora-4c571c.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@tanstack/react-query-persist-client",
+      "name": "@tanstack/react-query-persist-client",
+      "version": "5.89.0",
+      "singleton": true,
+      "requiredVersion": "^5.76.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_tanstack_react-query-persist-client_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:@tanstack/react-query",
+      "name": "@tanstack/react-query",
+      "version": "5.75.2",
+      "singleton": true,
+      "requiredVersion": "5.75.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_tanstack_react-query_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:async-mutex",
+      "name": "async-mutex",
+      "version": "0.5.0",
+      "singleton": true,
+      "requiredVersion": "^0.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_async-mutex_lib_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:axios",
+      "name": "axios",
+      "version": "1.9.0",
+      "singleton": true,
+      "requiredVersion": "1.9.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_axios_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:class-variance-authority",
+      "name": "class-variance-authority",
+      "version": "0.7.1",
+      "singleton": true,
+      "requiredVersion": "0.7.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_class-variance-authority_dist_index_js-_15290.chunk.bundle",
+            "node_modules_class-variance-authority_dist_index_js-_15291.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:clsx",
+      "name": "clsx",
+      "version": "2.1.1",
+      "singleton": true,
+      "requiredVersion": "2.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_clsx_dist_clsx_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:immer",
+      "name": "immer",
+      "version": "10.1.1",
+      "singleton": true,
+      "requiredVersion": "10.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_immer_dist_immer_legacy-esm_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:jail-monkey",
+      "name": "jail-monkey",
+      "version": "2.8.2",
+      "singleton": true,
+      "requiredVersion": "2.8.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_jail-monkey_jailmonkey_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:jsona",
+      "name": "jsona",
+      "version": "1.12.1",
+      "singleton": true,
+      "requiredVersion": "1.12.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_jsona_lib_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:lodash",
+      "name": "lodash",
+      "version": "4.17.21",
+      "singleton": true,
+      "requiredVersion": "^4.17.21",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_lodash_lodash_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:lucide-react-native",
+      "name": "lucide-react-native",
+      "version": "0.487.0",
+      "singleton": true,
+      "requiredVersion": "0.487.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_lucide-react-native_dist_esm_lucide-react-native_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:moment",
+      "name": "moment",
+      "version": "2.30.1",
+      "singleton": true,
+      "requiredVersion": "2.30.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-be389f.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:nativewind",
+      "name": "nativewind",
+      "version": "4.1.23",
+      "singleton": true,
+      "requiredVersion": "4.1.23",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_nativewind_dist_index_js-_42070.chunk.bundle",
+            "node_modules_nativewind_dist_index_js-_42071.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:qs",
+      "name": "qs",
+      "version": "6.13.0",
+      "singleton": true,
+      "requiredVersion": "6.13.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_qs_lib_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-hook-form",
+      "name": "react-hook-form",
+      "version": "7.54.2",
+      "singleton": true,
+      "requiredVersion": "7.54.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-hook-form_dist_index_cjs_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-android-location-enabler",
+      "name": "react-native-android-location-enabler",
+      "version": "2.0.1",
+      "singleton": true,
+      "requiredVersion": "2.0.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-android-location-enabler_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-autocomplete-dropdown",
+      "name": "react-native-autocomplete-dropdown",
+      "version": "4.0.0",
+      "singleton": true,
+      "requiredVersion": "4.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-autocomplete-dropdown_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-calendars",
+      "name": "react-native-calendars",
+      "version": "1.1312.0",
+      "singleton": true,
+      "requiredVersion": "1.1312.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-calendars_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-css-interop/jsx-runtime",
+      "name": "react-native-css-interop/jsx-runtime",
+      "version": "0.1.22",
+      "requiredVersion": "^0.1.22",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-css-interop_dist_runtime_jsx-runtime_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-fs",
+      "name": "react-native-fs",
+      "version": "2.20.0",
+      "singleton": true,
+      "requiredVersion": "2.20.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-fs_FS_common_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "version": "2.25.0",
+      "singleton": true,
+      "requiredVersion": "2.25.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-gesture-handler_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-get-location",
+      "name": "react-native-get-location",
+      "version": "5.0.0",
+      "singleton": true,
+      "requiredVersion": "5.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-get-location_dist_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-get-random-values",
+      "name": "react-native-get-random-values",
+      "version": "1.11.0",
+      "singleton": true,
+      "requiredVersion": "1.11.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-get-random-values_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-image-base64",
+      "name": "react-native-image-base64",
+      "version": "0.1.4",
+      "singleton": true,
+      "requiredVersion": "0.1.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-image-base64_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-image-picker",
+      "name": "react-native-image-picker",
+      "version": "7.2.1",
+      "singleton": true,
+      "requiredVersion": "7.2.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-image-picker_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-keyboard-controller",
+      "name": "react-native-keyboard-controller",
+      "version": "1.16.8",
+      "singleton": true,
+      "requiredVersion": "1.16.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-keyboard-controller_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-mmkv",
+      "name": "react-native-mmkv",
+      "version": "3.3.1",
+      "singleton": true,
+      "requiredVersion": "^3.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-mmkv_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-modal",
+      "name": "react-native-modal",
+      "version": "14.0.0-rc.1",
+      "singleton": true,
+      "requiredVersion": "14.0.0-rc.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-modal_dist_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-pager-view",
+      "name": "react-native-pager-view",
+      "version": "6.7.1",
+      "singleton": true,
+      "requiredVersion": "6.7.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-pager-view_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-paper",
+      "name": "react-native-paper",
+      "version": "5.14.5",
+      "singleton": true,
+      "requiredVersion": "^5.13.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-paper_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-permissions",
+      "name": "react-native-permissions",
+      "version": "5.3.0",
+      "singleton": true,
+      "requiredVersion": "5.3.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-permissions_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-photo-manipulator",
+      "name": "react-native-photo-manipulator",
+      "version": "1.9.2",
+      "singleton": true,
+      "requiredVersion": "^1.9.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-photo-manipulator_lib_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-progress",
+      "name": "react-native-progress",
+      "version": "5.0.1",
+      "singleton": true,
+      "requiredVersion": "5.0.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-progress_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-reanimated",
+      "name": "react-native-reanimated",
+      "version": "3.17.1",
+      "singleton": true,
+      "requiredVersion": "3.17.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-reanimated_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-restart",
+      "name": "react-native-restart",
+      "version": "0.0.27",
+      "singleton": true,
+      "requiredVersion": "0.0.27",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-restart_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-safe-area-context",
+      "name": "react-native-safe-area-context",
+      "version": "5.4.0",
+      "singleton": true,
+      "requiredVersion": "5.4.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native-safe-area-context_src_index_tsx-_deee0.chunk.bundle",
+            "node_modules_react-native-safe-area-context_src_index_tsx-_deee1.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-screenguard",
+      "name": "react-native-screenguard",
+      "version": "1.0.2",
+      "singleton": true,
+      "requiredVersion": "1.0.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-screenguard_src_commonjs_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-screens",
+      "name": "react-native-screens",
+      "version": "4.10.0",
+      "singleton": true,
+      "requiredVersion": "4.10.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-svg",
+      "name": "react-native-svg",
+      "version": "15.11.2",
+      "singleton": true,
+      "requiredVersion": "15.11.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-svg_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-tab-view",
+      "name": "react-native-tab-view",
+      "version": "3.5.2",
+      "singleton": true,
+      "requiredVersion": "3.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-tab-view_src_index_tsx.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-toast-message",
+      "name": "react-native-toast-message",
+      "version": "2.2.0",
+      "singleton": true,
+      "requiredVersion": "2.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-toast-message_lib_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-vision-camera",
+      "name": "react-native-vision-camera",
+      "version": "4.7.2",
+      "singleton": true,
+      "requiredVersion": "^4.6.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-vision-camera_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native-webview",
+      "name": "react-native-webview",
+      "version": "13.13.4",
+      "singleton": true,
+      "requiredVersion": "13.13.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native-webview_src_index_ts.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/BatchedBridge/BatchedBridge",
+      "name": "react-native/Libraries/BatchedBridge/BatchedBridge",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_BatchedBridge_BatchedBridge_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Components/StatusBar/NativeStatusBarManagerAndroid",
+      "name": "react-native/Libraries/Components/StatusBar/NativeStatusBarManagerAndroid",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-7496c2.chunk.bundle",
+            "node_modules_react-native_Libraries_Components_StatusBar_NativeStatusBarManagerAndroid_js.chunk.bundle",
+            "vendors-node_modules_react-native_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Components/View/ReactNativeStyleAttributes",
+      "name": "react-native/Libraries/Components/View/ReactNativeStyleAttributes",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Image/AssetRegistry",
+      "name": "react-native/Libraries/Image/AssetRegistry",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_5c660.chunk.bundle",
+            "node_modules_react-native_Libraries_Image_AssetRegistry_js-_5c661.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Image/AssetSourceResolver",
+      "name": "react-native/Libraries/Image/AssetSourceResolver",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Image/resolveAssetSource",
+      "name": "react-native/Libraries/Image/resolveAssetSource",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-1bac71.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_getNativeComponentAttributes_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/NativeComponent/NativeComponentRegistry",
+      "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-c90e410.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-c90e411.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Pressability/PressabilityDebug",
+      "name": "react-native/Libraries/Pressability/PressabilityDebug",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_const-355feb.chunk.bundle",
+            "node_modules_react-native_Libraries_Pressability_PressabilityDebug_js.chunk.bundle",
+            "vendors-node_modules_react-native_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/ReactNative/AppContainer",
+      "name": "react-native/Libraries/ReactNative/AppContainer",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpe-a5c3fe.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/ReactNative/ReactFabricPublicInstance/ReactFabricPublicInstance",
+      "name": "react-native/Libraries/ReactNative/ReactFabricPublicInstance/ReactFabricPublicInstance",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native_Libraries_ReactNative_ReactFabricPublicInstance_ReactFabric-8d2e8f.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/ReactNative/RendererProxy",
+      "name": "react-native/Libraries/ReactNative/RendererProxy",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_RendererProxy_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
+      "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react-native_Libraries_ReactPrivate_ReactNativePrivateInitializeCore_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
+      "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_babel_runtime_helpers_slicedToArray_js-node_modules_babel_runtime_helper-8d1878.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Renderer/shims/ReactFabric",
+      "name": "react-native/Libraries/Renderer/shims/ReactFabric",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_Renderer_shims_ReactFabric_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Renderer/shims/ReactNative",
+      "name": "react-native/Libraries/Renderer/shims/ReactNative",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "vendors-node_modules_react-native_Libraries_Renderer_shims_ReactNative_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Renderer/shims/ReactNativeViewConfigRegistry",
+      "name": "react-native/Libraries/Renderer/shims/ReactNativeViewConfigRegistry",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_react-native_Libraries_Renderer_shims_ReactNativeViewConfigRegistry_js-_eccf0.chunk.bundle",
+            "node_modules_react-native_Libraries_Renderer_shims_ReactNativeViewConfigRegistry_js-_eccf1.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_NativeComponent_NativeComponentRegistry_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/StyleSheet/processColor",
+      "name": "react-native/Libraries/StyleSheet/processColor",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-9494ba0.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-9494ba1.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-d7685d.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Components_View_ReactNativeStyleAttributes_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/StyleSheet/processColorArray",
+      "name": "react-native/Libraries/StyleSheet/processColorArray",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-d7685d.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_ReactNative_getNativeComponentAttributes_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Utilities/codegenNativeCommands",
+      "name": "react-native/Libraries/Utilities/codegenNativeCommands",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_const-355feb.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_const-3cca9d0.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_const-3cca9d1.chunk.bundle",
+            "node_modules_babel_runtime_helpers_construct_js-node_modules_babel_runtime_helpers_defineProp-24831f.chunk.bundle",
+            "node_modules_babel_runtime_helpers_construct_js-node_modules_babel_runtime_helpers_defineProp-2786b6.chunk.bundle",
+            "node_modules_react-native_Libraries_Pressability_PressabilityDebug_js.chunk.bundle",
+            "vendors-node_modules_babel_runtime_helpers_construct_js-node_modules_babel_runtime_helpers_de-ce5f7e.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/Utilities/codegenNativeComponent",
+      "name": "react-native/Libraries/Utilities/codegenNativeComponent",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-1311f0.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-3c7732.chunk.bundle",
+            "vendors-node_modules_react-native_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/Libraries/vendor/emitter/EventEmitter",
+      "name": "react-native/Libraries/vendor/emitter/EventEmitter",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_react-native_Libraries_vendor_emitter_EventEmitter_js-_b82b0.chunk.bundle",
+            "node_modules_react-native_Libraries_vendor_emitter_EventEmitter_js-_b82b1.chunk.bundle",
+            "vendors-node_modules_react-native_Libraries_Image_AssetSourceResolver_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native/src/private/featureflags/ReactNativeFeatureFlags",
+      "name": "react-native/src/private/featureflags/ReactNativeFeatureFlags",
+      "version": "0.78.1",
+      "requiredVersion": "^0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-52a6dc0.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-52a6dc1.chunk.bundle",
+            "vendors-node_modules_babel_runtime_helpers_construct_js-node_modules_babel_runtime_helpers_de-ce5f7e.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react-native",
+      "name": "react-native",
+      "version": "0.78.1",
+      "singleton": true,
+      "requiredVersion": "0.78.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_react-native_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:react",
+      "name": "react",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_react_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:realm",
+      "name": "realm",
+      "version": "12.14.2",
+      "singleton": true,
+      "requiredVersion": "12.14.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_realm_dist_platform_react-native_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:tailwind-merge",
+      "name": "tailwind-merge",
+      "version": "2.5.5",
+      "singleton": true,
+      "requiredVersion": "2.5.5",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_tailwind-merge_dist_bundle-cjs_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:uuid",
+      "name": "uuid",
+      "version": "10.0.0",
+      "singleton": true,
+      "requiredVersion": "10.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_uuid_dist_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:zod",
+      "name": "zod",
+      "version": "3.23.8",
+      "singleton": true,
+      "requiredVersion": "3.23.8",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_zod_lib_index_js.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "coipmobile:zustand",
+      "name": "zustand",
+      "version": "5.0.4",
+      "singleton": true,
+      "requiredVersion": "5.0.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_zustand_index_js-_b8390.chunk.bundle",
+            "node_modules_zustand_index_js-_b8391.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "coipmobile:App",
+      "name": "App",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_App.chunk.bundle"
+          ],
+          "async": [
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-19c6bc.chunk.bundle",
+            "vendors-node_modules_react-native-reanimated_src_core_ts.chunk.bundle",
+            "node_modules_react-native-reanimated_src_sync_recursive-_c86c0.chunk.bundle",
+            "node_modules_scheduler_index_native_js-_6ce31.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-4f1bf1.chunk.bundle",
+            "vendors-node_modules_babel_runtime_helpers_interopRequireDefault_js-node_modules_babel_runtim-310398.chunk.bundle",
+            "vendors-node_modules_react-navigation_elements_lib_module_index_js.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-7ae094.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_const-520cf70.chunk.bundle",
+            "-_aa23.chunk.bundle",
+            "vendors-node_modules_swc_helpers_cjs__object_spread_props_cjs-node_modules_react-native-anima-11720f.chunk.bundle",
+            "node_modules_moment_locale_sync_recursive_.chunk.bundle",
+            "vendors-node_modules_recyclerlistview_dist_reactnative_index_js.chunk.bundle",
+            "vendors-node_modules_tanstack_query-core_src_index_ts.chunk.bundle",
+            "vendors-node_modules_tslib_tslib_js.chunk.bundle",
+            "node_modules_babel_runtime_helpers_classCallCheck_js-node_modules_babel_runtime_helpers_creat-47f823.chunk.bundle"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./App"
+    }
+  ]
+}
